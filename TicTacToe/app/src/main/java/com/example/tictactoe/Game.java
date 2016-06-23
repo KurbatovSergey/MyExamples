@@ -11,7 +11,7 @@ public class Game {
         int squareCount = 0;
 
         for (int i = 0; i < field.length; i++) {
-            for (int j = 0; j < field.length; j++) {
+            for (int j = 0; j < field[i].length; j++) {
                 field[i][j]= new Square();
                 squareCount++;
             }
