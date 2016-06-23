@@ -3,5 +3,9 @@ package com.example.tictactoe;
 /**
  * Created by kurbatov on 23.06.2016.
  */
-public class WinnerChekerHorizontal {
+public class WinnerChekerHorizontal implements WinnerCheckerInterface {
+    @Override
+    public Player checkWinner() {
+        return null;
+    }
 }
